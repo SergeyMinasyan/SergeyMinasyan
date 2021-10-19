@@ -13,6 +13,29 @@ public class Boolean {
             }
         }
         System.out.println(isfound);
+        int max = 0;
+        for (int s : number) {
+            if (s > max) {
+                max = s;
+            }
+        }
+        System.out.println(max);
+        int min = number[0];
+        for (int d : number) {
+            if (d < min) {
+                min = d;
+            }
+        }
+        //վերջին թիվը
+        System.out.println(min);
+        for (int f : number) {
+        }
+        System.out.println(number[number.length - 1]);
+        //վերջին ինդեքսը
+        for (int s : number) {
+
+        }
+        System.out.println(number.length - 1);
     }
 }
 
