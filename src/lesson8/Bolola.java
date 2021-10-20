@@ -11,8 +11,6 @@ public class Bolola {
             }
         }
         System.out.println(count);
-        char[] array = {' ', ' ', 'h', 'e', 'l', 'l', 'o', ' ', 'j', 'a', 'v', 'a'};
-
     }
 }
 
