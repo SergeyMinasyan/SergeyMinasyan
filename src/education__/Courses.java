@@ -5,6 +5,7 @@ import jdk.nashorn.internal.runtime.regexp.joni.ast.StringNode;
 import java.util.Scanner;
 
 public class Courses {
+
     private static Scanner scanner = new Scanner(System.in);
     private static StudentStorage studentStorage = new StudentStorage();
     private static LessonStorage lessonStorage = new LessonStorage();
@@ -45,9 +46,11 @@ public class Courses {
 
     public static void main(String[] args) {
         lessonStorage.add(new Lesson("English", "two years", "Gohar", 35.000));
+        Lesson matem = new Lesson("English", "two years", "Gohar", 35.000);
+        lessonStorage.add(matem);
         lessonStorage.add(new Lesson("Avtoschool", "1 year", "Poxos", 10.000));
         lessonStorage.add(new Lesson("Mathematic", "two years", "Poxosuhi", 20.000));
-//        studentStorage.add(new Student("Poxos","Poxosyan",40,"Poxosyan98@mail.ru","094737373",));
+        studentStorage.add(new Student("Poxos","Poxosyan",40,"Poxosyan98@mail.ru","094737373",matem));
 //        studentStorage.add(new Student("Pedros","Martirosyan",20,"Hakobyan98@mail.ru","093337373",));
         //   studentStorage.add(new Student("Martiros","Pedrsyan",50,"Pedrosyan98@mail.ru","094744373",));
         boolean isRun = true;
