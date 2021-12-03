@@ -9,3 +9,4 @@ public class SamePackege {
             System.out.println("n_pub = " + p.n_pub);
         }
     }
+
