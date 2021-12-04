@@ -1,4 +1,6 @@
-package Interface;
+package Interface.interface3;
+
+import Interface.interface3.Callback;
 
 public class CallBackTest {
 

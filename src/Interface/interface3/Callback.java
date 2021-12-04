@@ -1,4 +1,4 @@
-package Interface;
+package Interface.interface3;
 
 public interface Callback {
     int EXIT = 11;
