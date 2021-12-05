@@ -1,4 +1,4 @@
-package lesson5;
+package lessons_.classwork;
 
 public class Modulus {
     public static void main(String[] args) {

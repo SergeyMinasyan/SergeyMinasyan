@@ -1,4 +1,4 @@
-package lesson8;
+package lessons_.classwork;
 
 public class CharArray {
     public static void main(String[] args) {
@@ -6,8 +6,8 @@ public class CharArray {
         int x = 6;
         int index = -1;
         for (int i = 0; i < array.length; i++) {
-            if (x == array[i]) {
-                index = -1;
+            if (array[i] == x) {
+                index = i;
             }
         }
         System.out.println(index);

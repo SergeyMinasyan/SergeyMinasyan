@@ -1,4 +1,4 @@
-package lesson8;
+package lessons_.classwork;
 
 public class Boolean {
     public static void main(String[] args) {
