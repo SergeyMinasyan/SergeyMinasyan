@@ -1,4 +1,4 @@
-package education__;
+package education__.model;
 
 import java.util.Objects;
 

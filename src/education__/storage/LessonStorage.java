@@ -1,8 +1,11 @@
-package education__;
+package education__.storage;
+
+import education__.model.Lesson;
 
 public class LessonStorage {
-    Lesson[] lessons = new Lesson[10];
+  private Lesson[] lessons = new Lesson[10];
     private int size;
+
 
     public void add(Lesson lesson) {
         if (lessons.length == size) {
