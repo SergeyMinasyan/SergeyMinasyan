@@ -1,0 +1,9 @@
+package super_.Super_1;
+
+public class A {
+    int i ;
+    A(int i ){
+        this.i = i;
+    }
+   A(){};
+}

@@ -36,11 +36,13 @@ public class PracticeHomework {
     //վերադարձնել երկու մասիվի ամենամեծ length-ը
     //int maxLength(int[] array1, int[] array2) {
     //return 0
-    int maxLenght(int[] number, int[] number1) {
-        if (number.length > number1.length)
-            return number.length;
-        return number1.length;
-    }
+    //int maxLenght(int[] number, int[] number1) {
+     //   if (number.length > number1.length)
+      //      return number.length;
+      //  return number1.length;
+       //  int maxLength(int[] array1, int[] array2) {
+        //        return Math.max(array1.length, array2.length);
+  //  }
 
     //վերադարձնել տրված թվի հաջորդ թիվը
     //int nextNumber(int number) {
@@ -54,5 +56,8 @@ public class PracticeHomework {
     boolean viceVersa(boolean value) {
         return !value;
 
+    }
+    int maxLenght(int[] array , int[] array2){
+        return Math.max(array.length ,array2.length);
     }
 }
