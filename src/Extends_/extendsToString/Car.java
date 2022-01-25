@@ -1,0 +1,12 @@
+package Extends_.extendsToString;
+
+public class Car {
+    String make = "BMW";
+    String model  = "3 Series";
+    String color  = "Black";
+    int year  = 2021;
+
+    public String toString(){
+        return make + "\n" + model +"\n" +color+"\n"+year;
+    }
+}
